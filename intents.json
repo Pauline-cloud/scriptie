@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting-random",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, how are you feeling today?", "Good to see you again, how are you feeling today?", "Hi there, how can I help? How are you feeling today?"],
+         "context": [""]
+        },
+        {"tag": "question greeting",
+          "patterns": ["Hello, are you well?"],
+          "responses": ["Hello! Yes, thanks for asking"],
+          "context": [""]
+        },
+        {"tag": "question",
+          "patterns": ["Are you well?", "How are you?", "Are you okay today?"],
+          "responses": ["I am great, how are you feeling today?"],
+          "context": [""]
+        },
+        {"tag":  "sad*",
+          "patterns": ["I am feeling sad today" ,"I am sad" ,"I'm down", "I am feeling down"],
+          "responses": ["Why are you feeling that way?", "That must be very tough to still feel sad, what happened?", "I'm sorry to hear that. This has been the third time you mentioned that you are sad, have you talked to anyone about it?"],
+          "context": [""]
+          },
+          {"tag":  "verysad*",
+          "patterns": ["I am feeling miserable today" ,"I am terrible" ,"I'm depressed", "I am feeling wretched","I feel horrible", "I feel like crap", "I "],
+          "responses": ["I'm sorry to hear that, What happened?", "I am very sorry you are feeling that way, is there a cause?", "I am very sorry to hear that you are still feeling sad. You have mentioned this twice before. I would like to advise you to tell someone about it, so you can seek support from them!"],
+          "context": [""]
+          },
+          {"tag":  "happy",
+          "patterns": ["I am feeling happy today" ,"I am happy" ,"I'm cheerful", "I am feeling cheerful", "I am feeling amazing" ,"I am ecstatic" ,"I'm joyful", "I am feeling ", "I'm feeling great"],
+          "responses": ["Great! Did something happen that made you happy?", "How great! Do you want to elaborate on why?"],
+          "context": [""]
+          },
+        {"tag":  "elaboration very sad",
+          "patterns": ["Someone died" ,"I got injured" ,"I got hurt", "I was in a fight", "I don't know", "My pet is sick", "I got fired", "People bully me", "Everything is going wrong today", "My f broke up with me", "Someone bullied me today", "I failed my exam", "People were not nice to me", "I don't know", "I'm being bullied", "I had a bad day", "I'm just feeling sad"],
+          "responses": ["That is very heavy, have you told anyone that this happened?"],
+          "context": [""]
+          },
+         {"tag":  "tell adult",
+          "patterns": ["I told no one", "I did not tell an adult", "I didn't tell them", "No, I didn't"],
+          "responses": ["Do you think it may be wise to do so?"],
+          "context": [""]
+          },
+          {"tag":  "wisetodoso*",
+            "patterns": ["It might be wise to do so, yes", "It may be wise to do so", "It may be smart to tell an adult, yes", "It may be smart to tell them", "It may be handy to tell an adult"],
+            "responses": ["I think so too! I think once you have told an adult you will feel better! How are you feeling?", "I think it may be the best option! Once you told an adult about what happened you feel better!", "I am sorry you still feel sad. I think the best thing to do right now is tell an adult about your feelings, and you may feel better today. I hope that after that you feel helped! I wish you the best of luck today!"],
+            "contex": [""]
+          },
+        {"tag":  "elaborationhappy",
+          "patterns": ["I passed my exam" ,"I got a pet today" ,"I got engaged", "I have a f now", "Someone gave me a compliment","I got married" ,"I graduated today" ,"I passed an important exam"],
+          "responses": ["That is so great to hear! Keep that up and have a very nice day!"],
+          "context": [""]
+          },
+         {"tag":  "endconversation*",
+          "patterns": ["This really helped me, thank you" ,"I am feeling a lot better now" ,"I think I feel okay again", "Thank you for listening to me today", "This was a great chat, it really helped", "No, that was it", "That's all", "yes, that helped"],
+          "responses": ["Can I help you with anything else? Is there anything other you would like to share or talk about?", "That's great, have a nice day!"],
+          "context": [""]
+          },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can offer you advice, and a friendly face to talk to." ,"I can help you understand what is going on in your life." ,"I can offer support in times of need"],
+         "context": [""]
+        }
+   ]
+}
