@@ -45,7 +45,7 @@
             "contex": [""]
           },
         {"tag":  "elaborationhappy",
-          "patterns": ["I passed my exam" ,"I got a pet today" ,"I got engaged", "I have a f now", "Someone gave me a compliment","I got married" ,"I graduated today" ,"I passed an important exam", "I had a great lunch", "I had a great work-out", "I watched my favourite series", "I had a great day at work", "Today was an amazing day with friends", "I came back from holiday", "I had a great holiday", "I cleaned my house", "I went shopping", "I cooked a great meal", "I went out for dinner", "I got into a great college", "I passed my thesis", "I'ts my birthday", "I got flowers from my f",],
+          "patterns": ["I passed my exam" ,"I got a pet today" ,"I got engaged", "I have a f now", "Someone gave me a compliment","I got married" ,"I graduated today" ,"I passed an important exam", "I had a great lunch", "I had a great work-out", "I watched my favourite series", "I had a great day at work", "Today was an amazing day with friends", "I came back from holiday", "I had a great holiday", "I cleaned my house", "I went shopping", "I cooked a great meal", "I went out for dinner", "I got into a great college", "I passed my thesis", "I'ts my birthday", "I got flowers from my f"],
           "responses": ["That is so great to hear! Keep that up and have a very nice day!", "Thats great! I am so happy to hear that! I hope you feel like that every day of the week! Have a nice day!"],
           "context": [""]
           },
